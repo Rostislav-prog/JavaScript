@@ -58,39 +58,40 @@ Hello
 // }
 // alert("Результат " + result);
 
-alert ("Вычислим сумму факториалов двух чисел");
-function factorial(value){ //функция
-    let result = 1;
-    for (let index = 2; index <= value; index++) {
-    result = result * index;
-    }
-    return result;
-}
-let value1 = prompt("Введите первое число");
-let value2 = prompt("Введите второе число");
-let finalResult = factorial(value1) + factorial(value2);
-alert("Результат " + finalResult);  
+// alert ("Вычислим сумму факториалов двух чисел");
+// function factorial(value){ //функция
+//     let result = 1;
+//     for (let index = 2; index <= value; index++) {
+//     result = result * index;
+//     }
+//     return result;
+// }
+// let value1 = prompt("Введите первое число");
+// let value2 = prompt("Введите второе число");
+// let finalResult = factorial(value1) + factorial(value2);
+// alert("Результат " + finalResult);  
 
-alert ("Вычислим факториал с помощью рекурсивной функции");
-function rfactorial(vallue){ // рекурсивная функция
-    if (vallue <= 1){
-        return 1;
-    }
-    return vallue * rfactorial(vallue - 1);
-}
-let vallue = prompt("Введите число");
-alert("Результат " + rfactorial(vallue));  
+// alert ("Вычислим факториал с помощью рекурсивной функции");
+// function rfactorial(vallue){ // рекурсивная функция
+//     if (vallue <= 1){
+//         return 1;
+//     }
+//     return vallue * rfactorial(vallue - 1);
+// }
+// let vallue = prompt("Введите число");
+// alert("Результат " + rfactorial(vallue));  
 
-alert ("Функция генерации случайного числа");
-function genereteRadomNamber(to){
-    return Math.round(Math.random() * to);
-}
-let n = prompt("Максимальное число");
-alert (genereteRadomNamber(n));
+// alert ("Программа генерации случайного числа");
+// function genereteRadomNamber(to){
+//     return Math.round(Math.random() * to);
+// }
+// let n = prompt("Максимальное число");
+// alert (genereteRadomNamber(n));
 
 
 </script>
 
+<script src="main.js"></script>
 
 </body>
 </html>
